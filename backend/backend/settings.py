@@ -124,7 +124,7 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000'
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'frontend/build/static')
